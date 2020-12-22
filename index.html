@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ACP-500</title>
   </head>
-  <body style="background: #212121; color: #FFFFFF;">
+  <body style="background: #F3F3F3; color: #000000;">
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
       <h3>Question: 1</h3>
       <p>
@@ -94,12 +94,12 @@
         Which three items should you begin monitoring and analyzing regularly over the next two weeks, to help diagnose the current problems? (Choose three.)
       </p>
       <p>
-        B. Confluence Integrity Checker Logs<br />
-        D. Confluence Access Logs<br />
-        F. Outgoing E-mail Logs
-        C. Proxy Server Logs<br />
         A. Server Memory Statistics <br />
+        B. Confluence Integrity Checker Logs<br />
+        C. Proxy Server Logs<br />
+        D. Confluence Access Logs<br />
         E. Garbage Collection Logs<br />
+        F. Outgoing E-mail Logs
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -117,7 +117,7 @@
         Which diagram displays the correct configuration for these components?
       </p>
       <img src="./500_img/question_5.png" alt="" style="width: 100%; margin-bottom: 50px;">
-      <p>이 그림 기억해 둘것</p>
+      <p>이 그림이 답이니까 이 그림 기억해 둘것</p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
       <h3>Question: 6</h3>
@@ -129,27 +129,30 @@
         Which solution will best fit their needs?
       </p>
       <p>
-        B. Jira Software Server<br />
-        D. Jira Core Cloud<br />
-        F. Jira Core Data Center<br />
-        C. Jira Software Data Center<br />
         A. Jira Software Cloud<br />
+        B. Jira Software Server<br />
+        C. Jira Software Data Center<br />
+        D. Jira Core Cloud<br />
         E. Jira Core Server<br />
+        F. Jira Core Data Center<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
       <h3>Question: 7</h3>
       <p>
         You are the system administrator for a highly secure organization that manages very sensitive information.<br />
-        You received a request from Management for a new default Jira instance, to support a new cooperative initiative. The instance will be shared by numerous external partners that are located in several countries.<br />
+        ㄴYou received a request from Management for a new default Jira instance, to support a new cooperative initiative.<br />
+      </p>
+      <p>
+        The instance will be shared by numerous external partners that are located in several countries.<br />
         The goal is to have each end user collaborating on the new initiative within Jira.<br />
         Which is the best solution for the given requirements?
       </p>
       <p>
-        D. Install Jira Server with inbound mail handlers.<br />
         A. Configure a Jira Cloud instance.<br />
-        C. Install a new Jira Server and allow the partners IP through the firewall.<br />
         B. Install Jira Data Center for this initiative and have a node installed on all partners' locations.<br />
+        C. Install a new Jira Server and allow the partners IP through the firewall.<br />
+        D. Install Jira Server with inbound mail handlers.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -166,10 +169,10 @@
         Which is a valid limitation for Confluence?
       </p>
       <p>
-        D. The attachments directory must not be located on the NFS storage.<br />
+        A. The index directory must not be located on the NFS storage.<br />
         B. The backup directory must not be located on the NFS storage.<br />
         C. The restore directory must not be located on the NFS storage.<br />
-        A. The index directory must not be located on the NFS storage.<br />
+        D. The attachments directory must not be located on the NFS storage.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -178,11 +181,11 @@
         Select the three areas that any System Administrator must take into account as they prepare to install and configure the infrastructure and application components required by all Atlassian applications. (Choose three.)
       </p>
       <p>
-        B. The capacity and organization of the file system<br />
-        E. Network latency and bandwidth<br />
         A. Contention for CPU and RAM<br />
+        B. The capacity and organization of the file system<br />
         C. Security access control lists to ensure access to the Atlassian Marketplace<br />
         D. A properly configured hypervisor<br />
+        E. Network latency and bandwidth<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -193,11 +196,11 @@
         Which two actions should you take? (Choose two.)
       </p>
       <p>
-        C. Refer to Atlassian's documentation for information on supported databases.<br />
-        B. Proceed with the installation, as MySQL is officially supported, and therefore Percona as well.<br />
         A. Request that your DBA provide you with a MySQL database instead, as Percona is not supported.<br /> 
-        E. Contact Atlassian Support, as there is no other way to determine the supported database type.<br />
+        B. Proceed with the installation, as MySQL is officially supported, and therefore Percona as well.<br />
+        C. Refer to Atlassian's documentation for information on supported databases.<br />
         D. Request that your DBA provide you with a PostgreSQL database, as no MySQL database type is supported.<br />
+        E. Contact Atlassian Support, as there is no other way to determine the supported database type.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -317,10 +320,10 @@
         Where in Jira can you find the information to identify the corresponding tables?
       </p>
       <p>
-        D. The App Tables page<br />
-        B. The Table Utilization page<br />
         A. The Plugin Data Storage page<br />
+        B. The Table Utilization page<br />
         C. The Database Mapping page<br />
+        D. The App Tables page<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -348,11 +351,11 @@
         Which two strategies will meet the requirement? (Choose two.)
       </p>
       <p>
-        C. The mail server and Jira mail handler share information found in the forward proxy server.<br />
         A. The Jira mail handler is configured to use the mail server's IMAP/POP information that is available for external access.<br />
-        E. A connection is established through VPN to the mail server from Jira.<br />
         B. A Mail Relay service connects to the Jira mail handler with whitelist information for the CodeRed mailbox.<br />
+        C. The mail server and Jira mail handler share information found in the forward proxy server.<br />
         D. The MX record for the mail server is accessed by Jira to allow the servers to communicate without VPN requirement.<br />
+        E. A connection is established through VPN to the mail server from Jira.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -364,11 +367,11 @@
         Which three changes would you make? (Choose three.)
       </p>
       <p>
-        C. Migrate to a proper production database.<br />
-        B. Increase Jira's JAVA heap.<br />
-        E. Modify Jira startup scripts to ensure Jira runs as super user.<br />
         A. Add and configure a reverse proxy.<br />
+        B. Increase Jira's JAVA heap.<br />
+        C. Migrate to a proper production database.<br />
         D. Migrate Jira_HOME to SAN storage.<br />
+        E. Modify Jira startup scripts to ensure Jira runs as super user.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -445,11 +448,11 @@
         What is the optimal backup solution?
       </p>
       <p>
-        B. Back up the &lt;jira-home-directory&gt; and the database.<br />
-        E. Schedule a VM Snapshot of the Jira Instance.<br />
         A. Back up the &lt;jira-install-directory&gt; and the database.<br />
-        D. Implement a RAID array in case the hard drive fails.<br />
+        B. Back up the &lt;jira-home-directory&gt; and the database.<br />
         C. Set Jira to automatically create XML backups.<br />
+        D. Implement a RAID array in case the hard drive fails.<br />
+        E. Schedule a VM Snapshot of the Jira Instance.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -476,10 +479,10 @@
         What backup method will allow you to recover from the data corruption with the least downtime?
       </p>
       <p>
-        B. File system snapshots of the Jira and database servers<br />
-        D. Offsite replication of the Jira and database servers’ file systems<br />
-        C. SSD-based RAID arrays on the Jira and database servers<br />
         A. XML backups on the Jira server and RAID 10 on the database server<br />
+        B. File system snapshots of the Jira and database servers<br />
+        C. SSD-based RAID arrays on the Jira and database servers<br />
+        D. Offsite replication of the Jira and database servers’ file systems<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -490,19 +493,19 @@
         What will be the most effective step for Leo to bring stability back to the system, and why?
       </p>
       <p>
-        D.<br />
-          Confluence Server does not support more than 60 installed apps at one time.<br />
-          Leo will conduct a thorough analysis with Marketing of the top 60 apps needed and not allow any new apps to be installed.<br />
-        B.<br />
-          The excessive number of apps installed are filling up the log files and causing the server to run out of disk space in the logs directory.<br />
-          Leo will add more disk space.<br />
         A.<br />
-          When apps are disabled, they still have system resources allocated to them upon startup.<br />
-          Leo should completely remove unused apps rather than just disable them.<br />
-          This will free up resources on the server for apps actually being used.<br />
+        &nbsp;&nbsp;When apps are disabled, they still have system resources allocated to them upon startup.<br />
+        &nbsp;&nbsp;Leo should completely remove unused apps rather than just disable them.<br />
+        &nbsp;&nbsp;This will free up resources on the server for apps actually being used.<br />
+        B.<br />
+        &nbsp;&nbsp;The excessive number of apps installed are filling up the log files and causing the server to run out of disk space in the logs directory.<br />
+        &nbsp;&nbsp;Leo will add more disk space.<br />
         C.<br />
-          The Marketing team has likely exceeded the number of users that the system supports to simultaneously test apps.<br />
-          Leo will limit the number of Marketing users able to log in at one time.<br />
+        &nbsp;&nbsp;The Marketing team has likely exceeded the number of users that the system supports to simultaneously test apps.<br />
+        &nbsp;&nbsp;Leo will limit the number of Marketing users able to log in at one time.<br />
+        D.<br />
+        &nbsp;&nbsp;Confluence Server does not support more than 60 installed apps at one time.<br />
+        &nbsp;&nbsp;Leo will conduct a thorough analysis with Marketing of the top 60 apps needed and not allow any new apps to be installed.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -547,12 +550,12 @@
         Identify two reasons for this error. (Choose two.)
       </p>
       <p>
-        C. An app created corrupt data within this directory.</br >
+        A. Confluence has been started using the wrong operating system user.</br >
         B. An app installation did not finish successfully.</br >
-        F. A user has uploaded an unsupported attachment.<br />
+        C. An app created corrupt data within this directory.</br >
         D. The directory permissions on the directory or its parent are not set properly.</br >
         E. There is insufficient disk space on the file system.</br >
-        A. Confluence has been started using the wrong operating system user.</br >
+        F. A user has uploaded an unsupported attachment.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -562,12 +565,12 @@
         Which three statements are true about the planned merge? (Choose three.)
       </p>
       <p>
-        C. A merge will take less than 12 hours, but a maintenance window is not required.  A re-index may be needed afterwards, but that can be run as a background job.<br />
-        B. The two instances could have the same project key names, and this key conflict will cause the merge to fail.<br />
         A. If the databases are not the same on both instances (ie PostgreSQL on one and Oracle on the other), there could be some complexity involved based on data storage (i.e. apps may store data in different format/tables on each).<br />
-        F. The apps on the two servers must be normalized to the same version before the merge can be done.<br />
-        E. As long as the Jira versions are both of major version 6, then the merge is straightforward with a simple XML backup and restore. If they are merging versions of Jira 6 and 7, then complexity is involved.<br />
+        B. The two instances could have the same project key names, and this key conflict will cause the merge to fail.<br />
+        C. A merge will take less than 12 hours, but a maintenance window is not required.  A re-index may be needed afterwards, but that can be run as a background job.<br />
         D. The merge can be done by running a simple XML export and import between the source and target server.<br />
+        E. As long as the Jira versions are both of major version 6, then the merge is straightforward with a simple XML backup and restore. If they are merging versions of Jira 6 and 7, then complexity is involved.<br />
+        F. The apps on the two servers must be normalized to the same version before the merge can be done.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -623,25 +626,25 @@
         What is the best way to migrate GOLDWORK?
       </p>
       <p>
+        A.<br />
+        &nbsp;&nbsp;1. Export Jira Cloud to an XML backup.<br />
+        &nbsp;&nbsp;2. Move the XML file to the Jira Server so it can access it.<br />
+        &nbsp;&nbsp;3. Use the Jira Project Importer to import the GOLDWORK project into Jira Server.<br />
         B.<br />
         &nbsp;&nbsp;1. Install a new Jira Server temporary instance that will be used to restore a full Jira import from Jira Cloud.<br />
         &nbsp;&nbsp;2. Restore the GOLDWORK project onto the temporary instance.<br />
         &nbsp;&nbsp;3. Connect the temporary instance to the target Jira Server using Application Links.<br />
         &nbsp;&nbsp;4. Import the GOLDWORK project into the target server over the Application Link connection.<br />
         &nbsp;&nbsp;5. Delete the temporary instance.<br />
-        A.<br />
-        &nbsp;&nbsp;1. Export Jira Cloud to an XML backup.<br />
-        &nbsp;&nbsp;2. Move the XML file to the Jira Server so it can access it.<br />
-        &nbsp;&nbsp;3. Use the Jira Project Importer to import the GOLDWORK project into Jira Server.<br />
-        D.<br />
-        &nbsp;&nbsp;1. Run a native database backup on Jira Cloud.<br />
-        &nbsp;&nbsp;2. Move the native database backup over to the target Jira Server database instance.<br />
-        &nbsp;&nbsp;3. Restore the database over the existing database install using native db restore tools.<br />
         C.<br />
         &nbsp;&nbsp;1. Connect Jira Cloud and Jira Server using Application Links.<br />
         &nbsp;&nbsp;2. Export the project GOLDWORK and note the file location of the XML.<br />
         &nbsp;&nbsp;3. Use Project Import tool to import GOLDWORK into the target Jira Server instance.<br />
         &nbsp;&nbsp;4. Delete the XML file from Jira Cloud.<br />
+        D.<br />
+        &nbsp;&nbsp;1. Run a native database backup on Jira Cloud.<br />
+        &nbsp;&nbsp;2. Move the native database backup over to the target Jira Server database instance.<br />
+        &nbsp;&nbsp;3. Restore the database over the existing database install using native db restore tools.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -666,11 +669,11 @@
         Which two aspects of the upgrade might not be automated when using the installer? (Choose two.)
       </p>
       <p>
-        C. Back up the Jira installation directory.<br />
-        B. Back up the production database.<br />
-        E. Upgrade the database schema.<br />
         A. Apply modified configuration files to the new Jira installation directory.<br />
+        B. Back up the production database.<br />
+        C. Back up the Jira installation directory.<br />
         D. Delete the contents of the existing Jira installation directory.<br />
+        E. Upgrade the database schema.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -736,10 +739,10 @@
         After restoring the backup, which two configurations will need to be adjusted to work in the new environment?
       </p>
       <p>
-        C. settings of the mail server in Jira’s mail configuration<br />
-        B. credentials and connection-string of the database<br />
-        D. update the physical location in Jira’s location configuration<br />
         A. settings of the user directory server<br />
+        B. credentials and connection-string of the database<br />
+        C. settings of the mail server in Jira’s mail configuration<br />
+        D. update the physical location in Jira’s location configuration<br />
         E. settings of the DNS server in Jira’s DNS configuration<br />
       </p>
     </div>
@@ -790,7 +793,9 @@
       <p>
         You check the startup log entries on atlassian-jira.log. Further diagnosis shows that three files have been modified:<br />
         ______Modifications________________________________<br />
-        Modified Files : log4j.properties, jira-application.properties, jpm.xml<br />
+        Modified Files : log4j.properties, jira-application.properties, jpm.xml<br />        
+      </p>
+      <p>
         Why is the reindex failing?
       </p>
       <p>
@@ -842,10 +847,11 @@
           The new Jira instance needs to use the corporate Active Directory.
         </p>
       </div>
+      <img src="./500_img/ea866bd6-0fb4-4f16-b87a-d54e75fef038.png" alt="" style="width: 100%; margin-bottom: 50px;">
       <p>
         Which two options allow you to complete the migration successfully? (Choose two.)
       </p>
-      <table style="border: 1px solid">
+      <!-- <table style="border: 1px solid">
         <thead>
           <tr>
             <th style="border: 1px solid"></th>
@@ -894,7 +900,7 @@
             <td style="border: 1px solid">10</td>
           </tr>
         </tbody>
-      </table>
+      </table> -->
       <p>
         <p>
           A.<br />
@@ -1169,12 +1175,12 @@
         What are three possible reasons for this error message? (Choose three.)
       </p>
       <p>
-        B. Something is holding on to the connections and not releasing them back to the pool.<br />
-        F. The max-pool-size in the server.xml needs to be increased, as it is currently set too low.<br />
-        D. There aren’t enough connections in the total connection pool for the requirements of Jira.<br />
-        C. This is a known bug migrating from Jira Cloud to Server and a database driver update in needed.<br />
-        E. The SSL certificate installed on the database server has expired.<br />
         A. The pool-max-size in the dbconfig.xml needs to be increased, as it is currently set to low.<br />
+        B. Something is holding on to the connections and not releasing them back to the pool.<br />
+        C. This is a known bug migrating from Jira Cloud to Server and a database driver update in needed.<br />
+        D. There aren’t enough connections in the total connection pool for the requirements of Jira.<br />
+        E. The SSL certificate installed on the database server has expired.<br />
+        F. The max-pool-size in the server.xml needs to be increased, as it is currently set too low.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -1235,7 +1241,8 @@
         You search the Confluence audit log event, within a day of the reduced access notification, and you find this entry:
       </p>
       <table style="border: 1px solid">
-        <thead>
+        <img src="./500_img/dcdc089d-730c-4382-a5fd-2b99de8fc504.png" alt="" style="width: 100%; margin-bottom: 50px;">
+        <!-- <thead>
           <tr>
             <th style="border: 1px solid">Time</th>
             <th style="border: 1px solid">User</th>
@@ -1244,25 +1251,22 @@
             <th style="border: 1px solid">Item affected</th>
             <th style="border: 1px solid">Actions</th>
           </tr>
-        </thead>
+        </thead> -->
         <tbody>
-          <tr>
+          <!-- <tr>
             <td style="border: 1px solid">22 Nov, 2016 10:03:35</td>
             <td style="border: 1px solid">Bob Smith</td>
             <td style="border: 1px solid">Permissions</td>
             <td style="border: 1px solid">Space permission removed</td>
             <td style="border: 1px solid">User:Smithb</td>
             <td style="border: 1px solid">Show less</td>
-          </tr>
+          </tr> -->
           <tr>
             <td>
-              DETAILS<br />
-              IP:<br />
-              148.252.19.232, 127.0.0.1<br />
-              Type:<br />
-              SETPAGEPERMISSONS<br />
-              User:<br />
-              smithb<br />
+              <span style="font-weight: bold;"> DETAILS<br /></span>
+              IP: 148.252.19.232, 127.0.0.1<br />
+              Type: SETPAGEPERMISSONS<br />
+              User: smithb<br />
               NO ASSOCIATED ITEMS
             </td>
           </tr>
@@ -1321,11 +1325,11 @@
         Which two options best describe what the problem might be?
       </p>
       <p>
-        C. The reverse proxy does not have enough resources to effectively proxy Jira.<br />
-        B. The administrator did not turn off the system option jira.option.web.usegzip.<br />
-        E. An installed plugin might be causing the problem.<br />
         A. The administrator did not properly configure the proxy in Jira’s server.xml.<br />
+        B. The administrator did not turn off the system option jira.option.web.usegzip.<br />
+        C. The reverse proxy does not have enough resources to effectively proxy Jira.<br />
         D. The reverse proxy has not been configured to take over SSL termination.<br />
+        E. An installed plugin might be causing the problem.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -1412,11 +1416,11 @@
         What are two remaining reasons you might be seeing this error in the logs? (Choose two.)
       </p>
       <p>
-        B. The Lucene jar is corrupted. Clear out the app cache and restart Confluence.<br />
-        E. The file system that hosts the indexes is full.<br />
-        C. The NFS lock daemon has stopped working on Confluence.<br />
         A. The user that Confluence runs as does not have write privileges to &lt;confluence-home&gt;/index.<br />
+        B. The Lucene jar is corrupted. Clear out the app cache and restart Confluence.<br />
+        C. The NFS lock daemon has stopped working on Confluence.<br />
         D. The Quartz job scheduler has become stuck. A reboot of Confluence is required.<br />
+        E. The file system that hosts the indexes is full.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -1427,10 +1431,10 @@
         Which are the two most likely causes? (Choose two.)
       </p>
       <p>
-        B. anti-virus “on access” scanning of the indexing directory<br />
-        D. shared Jira dashboards with gadgets that refresh<br />
-        C. Jira is connected to a LDAP user directory with more than 10,000 users and groups.<br />
         A. automated requests using the Jira REST API<br />
+        B. anti-virus “on access” scanning of the indexing directory<br />
+        C. Jira is connected to a LDAP user directory with more than 10,000 users and groups.<br />
+        D. shared Jira dashboards with gadgets that refresh<br />
         E. apps exhausting the database connection pool<br />
         F. You are using validationQuery to survive database connection closure.<br />
       </p>
@@ -1717,7 +1721,8 @@
         The results are shown:<br />
         TOTALS.
       </p>
-      <table style="border: 1px solid">
+      <img src="./500_img/cd6fca84-ff22-4ca9-abc4-5ecf1497d37b.png" alt="" style="width: 100%; margin-bottom: 50px;">
+      <!-- <table style="border: 1px solid">
         <thead>
           <tr>
             <th style="border: 1px solid">stat</th>
@@ -1757,17 +1762,17 @@
             <td style="border: 1px solid">1,771,416</td>
           </tr>
         </tbody>
-      </table>
+      </table> -->
       <p>
         All times are in nanoseconds.<br />
         What is true?
       </p>
       <p>
-        C. There is a performance problem that will affect reindexing and searching issues.<br />
-        E. All results are below the value in the maximum allowed column and there is no problem.<br />
-        B. There is a performance problem affecting issues when the Close transition is used.<br />
         A. There is a performance problem affecting Jira when issues are deleted.<br />
+        B. There is a performance problem affecting issues when the Close transition is used.<br />
+        C. There is a performance problem that will affect reindexing and searching issues.<br />
         D. For Jira, open and close are not relevant values because the cached indexes are used.<br />
+        E. All results are below the value in the maximum allowed column and there is no problem.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -1828,11 +1833,11 @@
         Management really wants the update, despite the possible problems brought on by this impending incompatibility. They depend on your expertise to make the final determination if the upgrade should proceed in the near future. What are two possible ways to handle this potential app incompatibility? (Choose two.)
       </p>
       <p>
-        C. The incompatibility warnings are almost always cosmetic. Proceed with the upgrade.<br />
+        A. Upgrade the app when upgrading Jira Software, then immediately down-grade to previous working version of the app.<br />
         B. Consult with users about the possible loss of functionality they might suffer with the app not being enabled.<br />
+        C. The incompatibility warnings are almost always cosmetic. Proceed with the upgrade.<br />
         D. Discuss with app vendor the possible data integrity ramifications that could occur if the app is temporarily disabled.<br />
         E. Try the app in UPM compatibility mode to see if it will function in an upgraded instance.<br />
-        A. Upgrade the app when upgrading Jira Software, then immediately down-grade to previous working version of the app.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -1920,10 +1925,10 @@
         Identify two possible causes for this error. (Choose two.)
       </p>
       <p>
-        B. The Base-URL configuration is not set properly.<br />
-        D. The value of serverUrl in server.xml is not set properly.<br />
-        C. The value of proxyName in Jira is not set properly.<br />
         A. The value of hostname in server.xml is not set properly.<br />
+        B. The Base-URL configuration is not set properly.<br />
+        C. The value of proxyName in Jira is not set properly.<br />
+        D. The value of serverUrl in server.xml is not set properly.<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -2036,12 +2041,12 @@
         Which two question must be answered prior to beginning the migration? (Choose two.)
       </p>
       <p>
+        A. What is the maximum amount of RAM available on a single VM?<br />
         B. What other VMs will be running on the same VM server as Jira?<br />
         C. Will the network be fiber or copper?<br />
+        D. Which operating system will be installed on the VMs?<br />
         E. Will the VM infrastructure be using local or SAN storage?<br />
         F. Which virtualization platform has IT chosen?<br />
-        A. What is the maximum amount of RAM available on a single VM?<br />
-        D. Which operating system will be installed on the VMs?<br />
       </p>
     </div>
     <div style="padding-bottom: 100px; border-bottom: 1px solid;">
@@ -2083,12 +2088,11 @@
         Which three alternate import methods could you consider? (Choose three.)
       </p>
       <p>
+        A. Create an XML backup on the 3rd-party tracker.Use the Restore function to import this data.<br />
         B. Export all issues to a CSV. Import the CSV data into Jira.<br />
+        C. Merge the 3rd-party database with Jira’s database, using a command similar to: INSERT INTO DB1.TABLE1 SELECT * FROM DB2.TABLE1;<br />
         D. Export all issues to a JSON file. Import this data into Jira.<br />
         E. Enable REST services in Jira and the 3rd-party tracker. Write a custom script to import issues via REST.<br />
-        A. Create an XML backup on the 3rd-party tracker.<br />
-        Use the Restore function to import this data.<br />
-        C. Merge the 3rd-party database with Jira’s database, using a command similar to: INSERT INTO DB1.TABLE1 SELECT * FROM DB2.TABLE1;<br />
       </p>
     </div>
 
